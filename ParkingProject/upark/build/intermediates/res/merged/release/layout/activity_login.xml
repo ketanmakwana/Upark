@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/parkme_signup_splash"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.upark.LoginActivity">
+
+
+    <EditText
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text=""
+        android:inputType="textPersonName"
+        android:id="@+id/txtvUserName"
+        android:layout_weight="0.05"
+        android:layout_marginTop="50dp"
+        android:gravity="right|center"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/hint_user_name">
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="textPassword"
+        android:id="@+id/txtvPassword"
+        android:layout_weight="0.05"
+        android:gravity="right|center"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:layout_marginTop="10dp"
+        android:hint="@string/hint_password"
+        android:fontFamily="calibri"
+        />
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnLogin"
+        android:background="@color/accent"
+        android:layout_gravity="center_horizontal"
+
+         />
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnSignUP"
+        android:background="@color/accent"
+        android:layout_gravity="center_horizontal"
+
+
+        />
+</LinearLayout><!-- From: file:/Works/skumar12/ParkingProject/upark/src/main/res/layout/activity_login.xml -->

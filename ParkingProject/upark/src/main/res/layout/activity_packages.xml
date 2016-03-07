@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.upark.Packages">
+
+    <TextView
+        android:id="@+id/txtPSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Select Package Name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/sppackages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtPSelect" />
+
+    <TextView
+        android:id="@+id/txtSelectEnteryTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sppackages"
+        android:text="Select Entery Date And Time"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtEnteryDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtSelectEnteryTime"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="dd/mm/YYYY"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edtEnteryTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtSelectEnteryTime"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/edtEnteryDate"
+        android:ems="10"
+        android:hint="HH:mm a"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/txtSelectExitTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtEnteryDate"
+        android:layout_marginTop="10dp"
+        android:text="Select Exit Date And Time"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtExitDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/txtSelectExitTime"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="dd/mm/YYYY"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/edtExitTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/txtSelectExitTime"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/edtExitDate"
+        android:ems="10"
+        android:hint="HH:mm a"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/txtAmountToPay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtExitDate"
+        android:layout_marginTop="10dp"
+        android:text="Total Amount"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/edtAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtAmountToPay"
+        android:layout_marginTop="10dp"
+        android:text="0.00"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/btnPayForReservation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorAccent"
+        android:text="Pay Now FOR Reservation" />
+</RelativeLayout>

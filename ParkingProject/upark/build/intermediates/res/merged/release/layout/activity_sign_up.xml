@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/parkme_signup_splash"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.upark.SignUp">
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.05"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:gravity="right|center"
+        android:text=""
+        android:inputType="textPersonName"
+        android:hint="@string/hint_user_name"
+        android:textAppearance="?android:attr/textAppearanceSmall" >
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtEmailId"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.05"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:gravity="right|center"
+        android:text=""
+        android:hint="@string/hint_email"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/edtMobileNo"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.05"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:gravity="right|center"
+        android:text=""
+        android:inputType="phone"
+        android:hint="@string/hint_mobileNo"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.05"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:gravity="right|center"
+        android:inputType="textPassword"
+        android:hint="@string/hint_password"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnSignUPDone"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/accent"
+        android:text="Sign Up" />
+
+</LinearLayout>
+
+<!-- From: file:/Works/skumar12/ParkingProject/upark/src/main/res/layout/activity_sign_up.xml -->

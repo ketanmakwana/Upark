@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/parkme_signup_splash"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.upark.SignUp">
+
+    <EditText
+        android:id="@+id/edtUserName"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:gravity="right|center"
+        android:text=""
+        android:inputType="textPersonName"
+        android:hint="@string/hint_user_name"
+        android:textAppearance="?android:attr/textAppearanceSmall" >
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id="@+id/edtEmailId"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:gravity="right|center"
+        android:text=""
+        android:hint="@string/hint_email"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+       <EditText
+        android:id="@+id/edtMobileNo"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:gravity="right|center"
+        android:text=""
+        android:inputType="phone"
+        android:hint="@string/hint_mobileNo"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:gravity="right|center"
+        android:text=""
+        android:inputType="textPostalAddress"
+        android:hint="@string/hint_Address"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+
+        android:typeface="serif"
+        android:textSize="16sp"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:gravity="right|center"
+        android:inputType="textPassword"
+        android:hint="@string/hint_password"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnSignUPDone"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:background="@color/accent"
+        android:text="Sign Up" />
+
+</LinearLayout>
+
+<!-- From: file:/Volumes/Works/Fiverr%20Ketan%20Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/res/layout/activity_sign_up.xml -->

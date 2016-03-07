@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/parkme_signup_splash"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.upark.LoginActivity">
+
+    <EditText
+        android:id="@+id/txtvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_weight="0.05"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:gravity="right|center"
+        android:hint="@string/hint_user_name"
+        android:inputType="textPersonName"
+        android:textAppearance="?android:attr/textAppearanceSmall">
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/txtvPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.05"
+        android:background="@drawable/abc_menu_hardkey_panel_mtrl_mult"
+        android:fontFamily="calibri"
+        android:gravity="right|center"
+        android:hint="@string/hint_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/accent"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/btnSignUP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/accent"
+        android:text="Sign Up" />
+</LinearLayout><!-- From: file:/Volumes/Works/Fiverr%20Ketan%20Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/res/layout/activity_login.xml -->

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.upark.Spots"
+    android:weightSum="1"
+    android:orientation="vertical"
+    android:background="@color/theme_background">
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtSpotName"
+        android:minHeight="35dp"
+        android:gravity="right|center"
+        android:hint="@string/hint_spotname"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Visible"
+        android:id="@+id/chkSpotIsVisible"
+        android:layout_gravity="center_horizontal"
+        android:checked="true"
+        android:layout_below="@+id/edtSpotName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:id="@+id/btnSave"
+        android:minHeight="35dp"
+        android:text="Save"
+        android:layout_below="@+id/edtSpotName"
+        android:background="@color/accent_pressed"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gvSpotNames"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:numColumns="auto_fit"
+        android:layout_below="@+id/btnSave"
+        android:background="@color/theme_background"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+</RelativeLayout>
+<!-- From: file:/Works/skumar12/ParkingProject/upark/src/main/res/layout/activity_spots.xml -->

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/add_new_spot"
+        android:orderInCategory="100"
+        android:title="@string/add"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_new"
+        />
+
+</menu><!-- From: file:/Volumes/Works/Fiverr%20Ketan%20Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/res/menu/add_spot_menu.xml -->

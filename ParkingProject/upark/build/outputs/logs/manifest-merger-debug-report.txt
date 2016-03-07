@@ -1,0 +1,159 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:2:1-73:12
+	xmlns:android
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:2:11-69
+	package
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:3:5-24
+		INJECTED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:5:5-30
+	android:versionCode
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:21.0.3] /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:15:5-42
+	android:targetSdkVersion
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:8:9-35
+		INJECTED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml
+		INJECTED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:14:5-81
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:14:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:15:5-75
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:15:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:16:22-77
+application
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:18:5-71:19
+MERGED from [com.android.support:support-v4:21.0.3] /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:appcompat-v7:21.0.3] /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/AndroidManifest.xml:16:5-19
+	android:label
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:19:9-45
+	android:theme
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:21:9-40
+activity#com.upark.Splash
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:22:9-31:20
+	android:label
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:24:13-45
+	android:theme
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:25:13-63
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:23:13-35
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:26:13-30:29
+action#android.intent.action.MAIN
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:27:17-69
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:27:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:29:27-74
+activity#com.upark.HomeActivity
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:32:9-34:55
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:33:13-41
+	android:launchMode
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:34:13-43
+activity#com.upark.ReservationActivity
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:35:9-37:55
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:36:13-48
+	android:launchMode
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:37:13-43
+activity#com.upark.NewReservationActivity
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:38:9-40:55
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:39:13-51
+	android:launchMode
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:40:13-43
+activity#com.upark.PaymentHistoryActivity
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:41:9-43:55
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:42:13-51
+	android:launchMode
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:43:13-43
+activity#com.upark.MessageActivity
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:44:9-46:55
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:45:13-44
+	android:launchMode
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:46:13-43
+activity#com.upark.SignUp
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:47:9-49:71
+	android:label
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:49:13-59
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:48:13-35
+activity#com.upark.Spots
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:50:9-52:69
+	android:label
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:52:13-57
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:51:13-34
+activity#com.upark.ReservationModification
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:53:9-55:88
+	android:label
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:55:13-76
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:54:13-52
+activity#com.upark.Payment
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:56:9-58:71
+	android:label
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:58:13-59
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:57:13-36
+activity#com.upark.ReservationCancellation
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:59:9-61:88
+	android:label
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:61:13-76
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:60:13-52
+activity#com.upark.PaymentConfirmation
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:62:9-64:84
+	android:label
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:64:13-72
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:63:13-48
+activity#com.upark.LoginActivity
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:65:9-67:70
+	android:label
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:67:13-58
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:66:13-42
+activity#com.upark.Packages
+ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:68:9-70:72
+	android:label
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:70:13-60
+	android:name
+		ADDED from /Volumes/Works/Fiverr Ketan Makwana/skumar12/Upadate7march/Upark/ParkingProject/upark/src/main/AndroidManifest.xml:69:13-37
